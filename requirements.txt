@@ -4,6 +4,7 @@ PyYAML>=5.1
 Pillow>=7.2
 torchvision>=0.7
 transformers>=4.0
+pytorch-tabnet>=3.0
 datasets>=1.2
 pandas>=1.0
 scikit-learn>=0.24
@@ -12,3 +13,5 @@ tqdm  # comes with 3rd-party dependency
 rouge-score>=0.0.4
 sentencepiece>=0.1.95
 pytorch-lightning-bolts==0.3.0
+filelock  # comes with 3rd-party dependency
+pycocotools>=2.0.2 ; python_version >= "3.7"
