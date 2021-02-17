@@ -1,8 +1,8 @@
 pytorch-lightning==1.2.0rc0
-torch>=1.6
+torch>=1.7  # regenerate weigths with lewer PT version
 PyYAML>=5.1
 Pillow>=7.2
-torchvision>=0.7
+torchvision>=0.8.2  # lower to 0.7 after PT 1.6
 transformers>=4.0
 pytorch-tabnet>=3.0
 datasets>=1.2
